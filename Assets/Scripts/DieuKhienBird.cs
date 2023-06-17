@@ -30,7 +30,7 @@ public class DieuKhienBird : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (flag == true)
+        if (flag == true || transform.position.y >= 4f)
             return;
         DiChuyenBird();
     }
